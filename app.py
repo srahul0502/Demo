@@ -10,5 +10,5 @@ def hello():
 
 # Run the application
 if __name__ == '__main__':
-    # Expose the app on all IP addresses and set port to 8000
+    # Expose the app on all IP addresses and set port to 5000
     app.run(host='0.0.0.0', port=5000, debug=True)
